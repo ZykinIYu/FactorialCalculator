@@ -6,7 +6,7 @@ public class Main {
         int factorialResult = 0;
         String factorialString = null;
 
-        System.out.print("Введите числа для вычисления его факториала: ");
+        System.out.print("Введите целое не отрицательное число для вычисления его факториала: ");
         value = new Scanner(System.in).nextInt();
 
         if (value == 0) {
